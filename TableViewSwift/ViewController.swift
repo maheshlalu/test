@@ -42,6 +42,8 @@ class ViewController: UIViewController,UITableViewDataSource {
         }
         
         
+        
+        
         let value = names[indexPath.row]
         
         cell?.textLabel?.text = value
